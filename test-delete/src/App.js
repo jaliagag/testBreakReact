@@ -7,8 +7,6 @@ function App() {
   const [adios, setAdios] = useState(30);
   const [textito, setTextito] = useState('Write your shit here')
   
-  
-  
   function change(){
     if (hola === 20) {
       setHola(30);

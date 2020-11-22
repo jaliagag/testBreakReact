@@ -22,6 +22,7 @@ const Tres = () => {
       <form className="" onSubmit={enviarDatos}>
       <input type="text" placeholder="Nombre" onChange={nino} name="nombre"></input><br/>
       <input type="text" placeholder="Apellido" onChange={nino} name="apellido"></input><br />
+    
       <button type="submit" className="">Crear</button>
     </form>
     {/*<ul>
