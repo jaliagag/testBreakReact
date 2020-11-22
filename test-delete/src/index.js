@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Tres from './Tres';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Tres />
   </React.StrictMode>,
   document.getElementById('root')
 );
