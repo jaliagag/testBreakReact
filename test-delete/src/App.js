@@ -17,6 +17,10 @@ function App() {
     }
   }
 
+  function actualizarTexto(){
+    console.log('click');
+    console.log(textito);
+  }
   return (
     <>
       <div className="">
@@ -29,10 +33,10 @@ function App() {
 	<input
 	  type='text'
 	  placeholder='your sheit'
-	  onSubmit={e=>setTextito(e.target.value)}
+	  onSubmit={actualizarTexto}
 	/>
 	<br />
-	<button>cambiar</button>
+	<button type="submit">cambiar</button>
 	<div>
 	  <span>{textito}</span>
 	</div>
@@ -43,3 +47,5 @@ function App() {
 }
 
 export default App;
+
+// { /*onSubmit={e=>setTextito(e.target.value)}*/ }
