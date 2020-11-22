@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Tres from './Tres';
+import Cuatro from './Cuatro_props';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Tres />
+    <Cuatro name='Joe'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
